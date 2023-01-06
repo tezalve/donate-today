@@ -1,18 +1,24 @@
 *{
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para{
+    padding:0px 100px;
+    font-size: small;
 }
 
 .header{
     background-image: url('../images/donation13.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    text-align: center;
     color: white;
 }
 
 .contain{
     padding: 100px;
 }
+
 
 .btn{
     color: #FFFFFF;
@@ -23,4 +29,98 @@
     height: 45px;
     border-radius: 5px;
     background: #0a9cfd;
+}
+
+.btn:hover {background-color: #0075fa}
+
+.btn:active {
+  background-color: #0075fa;
+  transform: translateY(4px);
+}
+
+.contain2{
+    padding: 20px;
+}
+
+.inptk{
+    width: 50%;
+    border-style: none;
+    border-bottom: 1px solid;
+    outline: none;
+    background-image: url('../images/taka.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.select{
+    overflow: auto;
+}
+
+.radio{
+    padding: 30px;
+}
+
+input[type="radio"]:checked + label {
+    background: rgb(240, 240, 255);
+    color: rgb(50, 50, 253);
+    border: 2px solid;
+}
+
+.radio>label {
+    background: rgb(240, 240, 255);
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.radio{
+    margin: 50px;
+}
+
+.ulist{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 20px;
+}
+
+.uulist1, .uulist2, .uulist3{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.uulist1{
+    background-color: rgb(240, 240, 248);
+}
+
+.uulist2{
+    background-color: rgb(240, 248, 240);
+}
+
+.uulist3{
+    background-color: rgb(255, 240, 240);
+}
+
+.llist>img{
+    width: 15%;
+    padding-top: 15px;
+}
+
+.llist{
+    text-align: left;
+}
+
+
+.llist>h4{
+    text-align: left;
+}
+
+.ppara{
+    text-align: left;
+    font-size: x-small;
 }
